@@ -3,7 +3,8 @@ import json
 
 class Supermarket:
     def __init__(self):
-        self.products_json_file_path = "./Supermarket System OOP/products.json"
+        self.products_json_file_path = "products.json"
+        self.transactions_json_file_path = "transactions.txt"
 
         with open(self.products_json_file_path, "r") as f:
             self.products = json.load(f)
@@ -321,7 +322,7 @@ while True:
             x.checkout()
 
         case 8:
-            with open("./Supermarket System OOP/transactions.txt", "r") as f:
+            with open(x.transactions_json_file_path, "r") as f:
                 print(f.read())
 
         case 9:
