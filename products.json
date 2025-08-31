@@ -1,0 +1,47 @@
+[
+  {
+    "name": "apple",
+    "price": 0.6,
+    "quantity": 20
+  },
+  {
+    "name": "banana",
+    "price": 0.4,
+    "quantity": 15
+  },
+  {
+    "name": "orange",
+    "price": 0.3,
+    "quantity": 20
+  },
+  {
+    "name": "pomegranate",
+    "price": 4.0,
+    "quantity": 10
+  },
+  {
+    "name": "chocolate",
+    "price": 1.5,
+    "quantity": 16
+  },
+  {
+    "name": "peanut butter",
+    "price": 2.0,
+    "quantity": 15
+  },
+  {
+    "name": "milk",
+    "price": 1.0,
+    "quantity": 10
+  },
+  {
+    "name": "yogurt",
+    "price": 0.75,
+    "quantity": 25
+  },
+  {
+    "name": "eggs",
+    "price": 0.2,
+    "quantity": 84
+  }
+]
